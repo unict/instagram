@@ -8,3 +8,5 @@ h2{
     border: solid;
     border-color: yellow;
 }
+nav {background-color: darkblue;text-align: center;}
+nav a {color: gold;}
