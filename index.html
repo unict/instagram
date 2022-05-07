@@ -11,15 +11,19 @@
         </nav>
         <hr/>
         <img src="img/Logo8.png"width="100px"/></body></br>
-        <p><input type="text" value="뭘 찾을까?"/></p>
-        <p><input/></p>
+        
+        <label for="InputA">a</label>
+        <p><input id="InputA" value=1 onkeyup="doSomething()"/></p>
+        <label for="InputB">b</label>
+        <p><input id="InputB" value=2 onkeyup="doSomething()"/></p>
+        <p><span id="valueA">1</span>+<span id="valueB">2</span>=<span id="valueC">3</span> 입니다</p>
 
         <div class="highlight">
             <img src="img/profile.jpg" width="100px"/>
        
             <div>
                 <h2>U&ICT</h2>
-                <button>프로필 편집</button></br>
+                <button onclick="whatTimeIsIt()">프로필 편집</button></br>
                 <input type="button" value="클릭해보까?" onclick="numbering(5)"></br>
                 <p onclick="alert('하이!!!')">
                     거기 말구 여기도 클릭해보까?
