@@ -34,6 +34,15 @@ document.addEventListener("DOMContentLoaded",
             function(e){
                 console.log(e.target.value)
             })
+
+        //ID 수정
+        let configID=document.querySelector("#id i")
+        let idText=document.querySelector("#id span")
+        configID.addEventListener("click",
+            function(e){
+                idText.textContent=prompt("새로운 아이디를 입력하세요")
+            }
+        )
     }
 )
 //let button=document.querySelector("input")
