@@ -19,21 +19,21 @@ document.addEventListener("DOMContentLoaded",
         )
 
         //일반개체에 이벤트 추가
-        let keydown=document.querySelector("#keydown")
-        keydown.addEventListener("keydown",
-            function(e){
-                console.log(e.target.value)
-            })
-        let change=document.querySelector("#change")
-        change.addEventListener("change",
-            function(e){
-                console.log(e.target.value)
-            })
-        let input=document.querySelector("#input")
-        input.addEventListener("input",
-            function(e){
-                console.log(e.target.value)
-            })
+        // let keydown=document.querySelector("#keydown")
+        // keydown.addEventListener("keydown",
+        //     function(e){
+        //         console.log(e.target.value)
+        //     })
+        // let change=document.querySelector("#change")
+        // change.addEventListener("change",
+        //     function(e){
+        //         console.log(e.target.value)
+        //     })
+        // let input=document.querySelector("#input")
+        // input.addEventListener("input",
+        //     function(e){
+        //         console.log(e.target.value)
+        //     })
 
         //ID 수정
         let configID=document.querySelector("#id i")
