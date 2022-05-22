@@ -71,7 +71,7 @@ function whatTimeIsIt(){
 
 function red(e){
     e.target.style.backgroundColor="red"
-    console.log(e)
+    //console.log(e)
 }
 
 function blue(e){
